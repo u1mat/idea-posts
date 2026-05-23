@@ -24,7 +24,9 @@
 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "backend": ["../backend/src/trpc.ts"],
+      "backend/*": ["../backend/src/*"]
     }
   },
   "include": ["src"]
